@@ -8,7 +8,7 @@ if [ "$BRANCH" != "master" ]
 then
   git add . && git commit -m "$MESSAGE" && \
   git checkout master && \
-  git merge dev && \
+  git merge $BRANCH && \
   npm run generate && \
   npm run deploy && \
   git checkout dev
