@@ -1,5 +1,6 @@
-#!/bin/usr/env bash
+#!/usr/bin/env bash
 
+git add . && git commit -m "testing" && \
 git checkout master && \
 git merge dev && \
 npm run generate && \
