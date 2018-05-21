@@ -11,5 +11,5 @@ then
   git merge $BRANCH && \
   npm run generate && \
   npm run deploy && \
-  git checkout dev
+  git checkout $BRANCH
 fi
