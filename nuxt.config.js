@@ -22,9 +22,8 @@ module.exports = {
     // ]
   },
   
-  router: {
-    base: '/qais-aboujaoude.github.io/'
-  }
+  ...routerBase
+
   // css: [
   //   'assets/main.css'
   // ],
