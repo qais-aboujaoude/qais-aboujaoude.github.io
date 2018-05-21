@@ -21,6 +21,8 @@ module.exports = {
     //   { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' },
     // ]
   },
+
+  plugins: ['~/plugins/global.js'],
   
   ...routerBase
 
@@ -30,7 +32,6 @@ module.exports = {
 
   // modules: ['@nuxtjs/bulma'],
 
-  // plugins: ['~/plugins/global.js'],
   /*
   ** Customize the progress bar color
   */
