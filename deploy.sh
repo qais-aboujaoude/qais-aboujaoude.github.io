@@ -8,3 +8,4 @@ git merge dev && \
 npm run generate && \
 npm run deploy && \
 git checkout dev
+
