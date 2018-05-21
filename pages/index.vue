@@ -1,10 +1,6 @@
 <template>
   <div>
-    <h1>q.</h1>
-    <p>zohoooo happy</p>
-    <h3>asdfadf</h3>
-    <h5>la2 man ma btezbat</h5>
-    <h4>i am developer</h4>
-    <h5>trust masdfasdfew</h5>
+     <router-link to="/about">ABOUT US</router-link>
+     <h1>q.</h1>
   </div>
 </template>
