@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-git add . && git commit -m "testing" && \
+MESSAGE=$1
+
+git add . && git commit -m $MESSAGE && \
 git checkout master && \
 git merge dev && \
 npm run generate && \
