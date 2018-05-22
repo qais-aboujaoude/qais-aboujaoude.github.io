@@ -1,5 +1,5 @@
 <template>
   <div>
-    <navigation-bar/>
+    q.
   </div>
 </template>
